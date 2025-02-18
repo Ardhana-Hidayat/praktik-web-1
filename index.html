@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dasar HTML</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Halo! Selamat Datang.</h1>
+    <p>Terima kasih telah mengunjungi situs web saya.</p>
+    <br>
+
+    <div class="image">
+        <img src="/img/image.jpg">
+    </div>
+    <br>
+
+    <hr>
+    <h2>MENU</h2>
+
+    <div class="menu">
+      <div class="menu-1">
+        <ol>
+          <li>Bakso</li>
+          <li>Mie Ayam</li>
+          <li>Mie Ayam Bakso</li>
+          <li>Es Teh</li>
+          <li>Es Jeruk</li>
+        </ol>
+      </div>
+
+      <div class="menu-2">
+        <ul>
+          <li>Kerupuk</li>
+          <li>Gorengan</li>
+          <li>Bakpau</li>
+          <li>Untilan</li>
+          <li>Ceker</li>
+        </ul>
+      </div>
+    </div>
+    <br>
+
+    <div class="link">
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.instagram.com/ardhanash">Instagram</a>
+        <a href="https://www.youtube.com">Youtube</a>
+    </div>
+
+    <script>
+        setInterval(() => {
+            document.body.style.backgroundColor = getRandomColor();
+        }, 100);
+    </script>
+  </body>
+</html>
